@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react';
 
 const Hero = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
 
   const toggleTheme = () => {
     setIsDarkMode(!isDarkMode);
@@ -16,11 +16,34 @@ const Hero = () => {
       }}>
 <header className="flex justify-between items-center w-full px-6 md:px-20 lg:px-100 pt-4">
   <div className="text-xl font-bold"><Link href={"/blogs/googleKnowledge"}>About Me</Link></div>
-  <div className="flex items-center space-x-4">
-    <button className="text-xl font-medium" onClick={toggleTheme}>
-      ☀️
-    </button>
-  </div>
+
+
+
+  {/* <div className="flex items-center space-x-4">
+  <button className="text-xl font-medium" onClick={toggleTheme}>
+          {isDarkMode ? "🌙" : "☀️"}
+        </button>
+  </div> */}
+
+<label className="relative inline-flex items-center cursor-pointer">
+  <input
+    type="checkbox"
+    checked={isDarkMode}
+    onChange={toggleTheme}
+    className="sr-only peer"
+  />
+  <div
+    className={`w-14 h-7 bg-gray-200 rounded-full peer peer-checked:bg-green-500 transition-all duration-300`}
+  ></div>
+  <div
+    className={`absolute left-1 top-1 w-5 h-5 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-7`}
+  ></div>
+  <span className="ml-3 text-sm font-medium text-gray-900">
+    {isDarkMode ? "🌙" : "☀️"}
+  </span>
+</label>
+
+
 </header>
 <div className='px-6 md:px-20 lg:px-100 py-120'>
       <div className="flex justify-between items-center">
