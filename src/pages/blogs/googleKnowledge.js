@@ -40,7 +40,7 @@ const GoogleKnowledge = () => {
         
         <p className="c0">
           <span className="c4">Who is Gurinder Khabra?</span><br />
-          Gurinder Khabra is an entrepreneur and go-to-market (GTM) expert who transitioned from corporate America at the age of 24 to launch his own startup, <span className="c5"><a className="c6" href="https://fargoco.com/">FargoHub</a></span>. FargoHub was a pioneering marketplace connecting entrepreneurs with investors, including angel investors, venture capitalists, private investors, incubators, accelerators, and other key players in the startup ecosystem.
+          Gurinder Khabra is a marketer and an entrepreneur who transitioned from Corporate America at the age of 24 to launch his own startup, <span className="c5"><a className="c6" href="https://fargoco.com/">FargoHub</a></span>. FargoHub was a pioneering marketplace connecting entrepreneurs with investors, including angel investors, venture capitalists, private investors, incubators, accelerators, and other key players in the startup ecosystem.
         </p>
 
         <p className="c0">
