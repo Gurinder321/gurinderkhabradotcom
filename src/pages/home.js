@@ -30,15 +30,16 @@ const Hero = () => {
   
   </div>
   <div>
-  <h2 className="text-5xl font-300 leading-snug py-14 w-full lg:w-2/3">
+  <h2 className="text-5xl font-300 leading-snug pt-14 pb-4 w-full lg:w-2/3">
      I'm <span className="text-blue-600">Gurinder Khabra</span>
      , a systems-focused GTM & RevOps consultant specializing in building systems and pipelines
 </h2>
+<p className='text-sm'>(ELI5: I book meetings with decision makers using meaningful cold outreach.) </p>
   </div>
   <p className="mt-6 text-lg">
      Get in touch 👉
      <a className="text-blue-600 underline" href="mailto:hello@example.com">
-      hello@example.com
+      gurinderk@thepacificgrp.com
      </a>
     </p>
   </div>
@@ -63,6 +64,7 @@ const Hero = () => {
     <p className="mt-4 text-gray-700 leading-relaxed">
     I’m Gurinder Khabra, a passionate GTM & RevOps consultant specializing in building robust systems and pipelines. Currently, I’m helping companies streamline their operations with strategic marketing automations and systems, ensuring smoother workflows and greater efficiency.
     </p>
+   
     <p className="mt-4 text-gray-700 leading-relaxed">
     Here are a few areas I’m focused on:
     </p>
