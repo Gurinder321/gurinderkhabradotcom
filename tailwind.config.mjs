@@ -11,6 +11,13 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      spacing: {
+        '100': '100px',
+        '120': '120px',
+      },
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'], // Adding Poppins to the fontFamily
+      },
     },
   },
   plugins: [],

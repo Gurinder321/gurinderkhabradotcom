@@ -10,26 +10,43 @@ const Hero = () => {
   };
   return (
     
-    <div className=" text-gray-900" style={{backgroundColor:isDarkMode?"#ffffff":"#000000"}}>
-       
-  <header className="p-6 flex justify-between items-center">
-   <h1 className="text-lg font-semibold">
+    <div  style={{
+        backgroundColor: isDarkMode ? "#171C28" : "#ffffff",
+        color: isDarkMode ? "white" : "#444452",
+      }}>
+<header className="flex justify-between items-center w-full px-6 md:px-20 lg:px-100 pt-4">
+  <div className="text-xl font-bold"><Link href={"/blogs/googleKnowledge"}>About Me</Link></div>
+  <div className="flex items-center space-x-4">
+    <button className="text-xl font-medium" onClick={toggleTheme}>
+      ☀️
+    </button>
+  </div>
+</header>
+<div className='px-6 md:px-20 lg:px-100 py-120'>
+      <div className="flex justify-between items-center">
+   <h1 className="my-10 font-medium text-4xl">
     Hello! 👋
    </h1>
-   <div className="flex items-center space-x-4">
-    <button className="text-sm font-medium" onClick={toggleTheme}>
-     ☀️
-     
-    </button>
-   </div>
-  </header>
-  <main className="px-6 md:px-20 lg:px-40">
-   <section className="mt-12">
+  
+  </div>
+  <div>
+  <h2 className="text-5xl font-300 leading-snug py-14 w-full lg:w-2/3">
+     I'm <span className="text-blue-600">Gurinder Khabra</span>
+     , a systems-focused GTM & RevOps consultant specializing in building systems and pipelines
+</h2>
+  </div>
+  <p className="mt-6 text-lg">
+     Get in touch 👉
+     <a className="text-blue-600 underline" href="mailto:hello@example.com">
+      hello@example.com
+     </a>
+    </p>
+  </div>
+
+  <main className="px-6 md:px-20 lg:px-100">
+   {/* <section className="mt-12">
     <h2 className="text-4xl font-bold leading-snug">
-     I'm
-     <span className="text-blue-600">
-      Brittany Chiang
-     </span>
+     I'm <span className="text-blue-600">Gurinder Khabra</span>
      , a design-minded front-end software engineer focused on building beautiful interfaces &amp; experiences 🖌️ <Link href={"/blogs/googleKnowledge"}>More about me</Link>
     </h2>
     <p className="mt-6 text-lg">
@@ -38,36 +55,29 @@ const Hero = () => {
       hello@example.com
      </a>
     </p>
-   </section>
-   <section className="mt-20">
+   </section> */}
+   <section className="">
     <h3 className="text-blue-600 text-sm font-semibold">
      ABOUT ME
     </h3>
     <p className="mt-4 text-gray-700 leading-relaxed">
-     I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Upstatement.
+    I’m Gurinder Khabra, a passionate GTM & RevOps consultant specializing in building robust systems and pipelines. Currently, I’m helping companies streamline their operations with strategic marketing automations and systems, ensuring smoother workflows and greater efficiency.
     </p>
     <p className="mt-4 text-gray-700 leading-relaxed">
-     Here are a few technologies I've been working with recently:
+    Here are a few areas I’m focused on:
     </p>
-    <ul className="mt-4 grid grid-cols-2 gap-2 text-gray-700">
-     <li>
-      JavaScript (ES6+)
+    <ul className="mt-1  text-gray-700">
+     <li className='py-2'>
+     - Building high-performing systems and pipelines for businesses.
      </li>
-     <li>
-      React
+     <li className='py-2'>
+     - Implementing RevOps and GTM strategies at top-tier companies.
+
      </li>
-     <li>
-      Node.js
+     <li className='py-2'>
+     - Leading strategic marketing automation initiatives to drive growth.
      </li>
-     <li>
-      TypeScript
-     </li>
-     <li>
-      GraphQL
-     </li>
-     <li>
-      Tailwind CSS
-     </li>
+    
     </ul>
    </section>
    <section className="mt-20">
@@ -94,30 +104,30 @@ const Hero = () => {
      <tbody>
       <tr>
        <td>
-        Upstatement
+        Pacific Group
        </td>
        <td>
-        Boston, MA
+        Las Vegas, NV
        </td>
        <td>
-        Software Engineer
+        Founder
        </td>
        <td>
-        2020 - Present
+        2018 - Present
        </td>
       </tr>
       <tr>
        <td>
-        Freelance
+        FargoHub
        </td>
        <td>
         Remote
        </td>
        <td>
-        Web Developer
+        Partner
        </td>
        <td>
-        2018 - 2020
+        2014 - 2016
        </td>
       </tr>
      </tbody>
@@ -188,7 +198,7 @@ const Hero = () => {
   </main>
   <footer className="mt-20 p-6 text-center text-gray-600">
    <p>
-    Designed &amp; Built by Brittany Chiang
+    Designed &amp; Built by Gurinder Khabra
    </p>
   </footer>
 

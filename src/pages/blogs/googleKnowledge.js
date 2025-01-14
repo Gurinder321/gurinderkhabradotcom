@@ -34,28 +34,17 @@ const GoogleKnowledge = () => {
       <div className="c2 doc-content">
         <p className="c0">
           <span className="c4">About Gurinder Khabra</span><br />
-          This page is for my 
-          <span className="c5">
-            <a className="c6" href="https://support.google.com/knowledgepanel/answer/9163198?hl=en&ref=gurinderkhabra.com">
-              Google Knowledge Graph
-            </a>
-          </span>
-          panel. For a more comprehensive (and grounded) biography, go here.
+          This page is for my <span className="c5"><a className="c6" href="https://support.google.com/knowledgepanel/answer/9163198?hl=en&ref=gurinderkhabra.com">Google Knowledge Graph</a>
+          </span> panel. For a more comprehensive (and grounded) biography, go here.
         </p>
         
         <p className="c0">
           <span className="c4">Who is Gurinder Khabra?</span><br />
-          Gurinder Khabra is an entrepreneur and go-to-market (GTM) expert who transitioned from corporate America at the age of 24 to launch his own startup, 
-          <span className="c5">
-            <a className="c6" href="https://fargoco.com/">FargoHub</a>
-          </span>. FargoHub was a pioneering marketplace connecting entrepreneurs with investors, including angel investors, venture capitalists, private investors, incubators, accelerators, and other key players in the startup ecosystem.
+          Gurinder Khabra is an entrepreneur and go-to-market (GTM) expert who transitioned from corporate America at the age of 24 to launch his own startup, <span className="c5"><a className="c6" href="https://fargoco.com/">FargoHub</a></span>. FargoHub was a pioneering marketplace connecting entrepreneurs with investors, including angel investors, venture capitalists, private investors, incubators, accelerators, and other key players in the startup ecosystem.
         </p>
 
         <p className="c0">
-          At 28, Gurinder founded 
-          <span className="c5">
-            <a className="c6" href="https://thepacificgrp.com/">Pacific Group</a>
-          </span>, leveraging his experience in managing the marketing and distribution side of a fintech startup. This journey transformed him into a GTM expert, specializing in helping businesses craft and execute successful launch strategies.
+          At 28, Gurinder founded <span className="c5"><a className="c6" href="https://thepacificgrp.com/">Pacific Group</a></span>, leveraging his experience in managing the marketing and distribution side of a fintech startup. This journey transformed him into a GTM expert, specializing in helping businesses craft and execute successful launch strategies.
         </p>
 
         <p className="c0">
