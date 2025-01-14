@@ -33,7 +33,7 @@ const Hero = () => {
     className="sr-only peer"
   />
   <div
-    className={`w-14 h-7 bg-gray-200 rounded-full peer peer-checked:bg-green-500 transition-all duration-300`}
+    className={`w-14 h-7 bg-gray-200 rounded-full peer peer-checked:bg-green-500 transition-all duration-500`}
   ></div>
   <div
     className={`absolute left-1 top-1 w-5 h-5 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-7`}
